@@ -21,6 +21,8 @@ module.exports = React.createClass({displayName: "exports",
     cellClick: function (e) {
         var month = e.target.innerHTML;
         var date = this.props.date.month(month);
+
+        this.props.setDate(date, true);
         this.props.prevView(date);
     },
 
