@@ -1,5 +1,5 @@
 {
-  "name": "@snordrapidimages/react-input-calendar",
+  "name": "react-input-calendar",
   "version": "0.2.0",
   "description": "Datepicker widget react component",
   "repository": "https://github.com/Rudeg/react-input-calendar",
